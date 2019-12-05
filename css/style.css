@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    background: #333;
+    color: blanchedalmond;
+}
+
+.yope {
+    color: #fff;
+}
+
+.service {
+    font-family: sans-serif;
+    font-size: larger;
+    text-align: center;
+    padding: 30px;
+    color: teal;
+}
+#header .navbar-brand {
+    color: teal;
+    transition-duration: 0.8s;
+}
+
+#header .navbar-brand:hover {
+    color: cadetblue;
+}
+
+nav .navbar-brand span {
+    color: crimson;
+}
+
+nav .navbar-nav .fa {
+    color: teal;
+    transition-duration: 0.6s;
+}
+
+nav .navbar-nav .fa:hover {
+    color: cornflowerblue;
+}
+
+#header {
+    background-image: url(../img/photo-1569545847022-ef95897944cf.jfif);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* text */
+.welcome {
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    background: teal;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+
+.welcome h1 {
+    color: #fff;
+    background: teal;
+}
+
+.welcome p {
+    background: teal;
+    color: darkgray;
+}
+
+.welcome .home-btn {
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: darkslategrey;
+    transition-duration: 0.8s;
+}
+
+.welcome .home-btn:hover {
+    color: darkslategrey;
+    background: darkcyan;
+}
+
+.welcome .btn:focus {
+    box-shadow: none;
+}
+
+/* about */
+#about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about .col-md-6 {
+    padding: 20px 10px;
+}
+
+#about h3 {
+    padding: 20px auto;
+    color: teal;
+}
+
+#like h3 {
+    padding-top: 40px;
+}
+
+.sky {
+    padding-top: 30px;
+}
+
+/* services */
+#services {
+    padding: 10px;
+}
+
+.col-md-4 h4 {
+    color: teal;
+} 
+
+.col-md-4 .fa {
+    color: lightseagreen;
+} 
+
+/* features */
+#features {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+}
+
+#features i {
+    color: lightseagreen;
+}
+
+#features h4 {
+    color: teal;
+}
+
+#features span {
+    color: #fff;
+}
+
+/* testimonials */
+#testimonials .col-md-4 {
+    padding: 10px 30px;
+}
+
+#testimonials img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: -40px;
+    border: 5px solid darkslategrey;
+    margin-bottom: 30px;
+}
+
+.review {
+    font-size: 16px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+}
+
+.review .fa {
+    color: teal;
+    margin: 5px;
+    cursor: pointer;
+    transition-duration: 0.9s;
+}
+
+.review .fa:hover {
+    color: crimson;
+}
+
+#testimonials span {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#testimonials h1 {
+    margin-bottom: 20px;
+    color: teal;
+}
+
+#testimonials p {
+    padding-bottom: 40px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: darkturquoise;
+}
+
+
+#testimonials .middle {
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
+
+#testimonials .fish {
+    color: dimgray;
+}
+
+/* subscribe */
+.subscribe {
+    padding: 50px 20px;
+    background-color: darkcyan;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    margin-bottom: -100px;
+}
+
+.subscribe h3 {
+    color: #fff;
+    background: transparent;
+}
+
+.subscribe p {
+    color: #fff;
+    background: transparent;
+}
+
+.form-inline {
+    background: transparent;
+}
+
+.subscribe button {
+    background: linear-gradient(to right, crimson, teal);
+    border: none;
+}
+
+/* footer */
+#footer {
+    margin-top: 0;
+    padding: 100px;
+}
+
+#footer .grace {
+    padding-top: 35px;
+}
+
+#footer .job {
+    color: teal;
+    padding: 10px;
+    margin: 5px;
+}
+
+#footer .img1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 5px solid darkslategrey;
+    margin-top: 25px;
+    background-color: transparent;
+}
+
+
+#footer h1 {
+    color: teal;
+    padding-top: 50px;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#footer p {
+    font-size: 12px;
+    text-align: left;
+}
+
+#footer .city {
+    margin-left: 37px;
+}
+
+#footer .row .fa {
+    color: teal;
+    padding-right: 20px;
+    font-size: 15px;
+    transition-duration: 0.6s ease-in-out;
+} 
+
+#footer .fa:hover {
+    color: crimson;
+}
+
+#footer .hr {
+    margin-top: 10px;
+}
+
+#footer .copyright {
+    margin-bottom: -40px;
+    text-align: center;
+    font-size: 15px;
+}
